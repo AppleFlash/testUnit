@@ -15,6 +15,7 @@
 		F5690B281E3D0A3C00C1BEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5690B261E3D0A3C00C1BEAF /* LaunchScreen.storyboard */; };
 		F5A2DB901E3E1C9400BC64FD /* ViewController+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DB8F1E3E1C9400BC64FD /* ViewController+Test.swift */; };
 		F5A2DB921E3E1E4100BC64FD /* ObjectTst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2DB911E3E1E4100BC64FD /* ObjectTst.swift */; };
+		F5F47A841E49B4E9008FDEC5 /* qweqweqwe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F47A831E49B4E9008FDEC5 /* qweqweqwe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		F5690B291E3D0A3C00C1BEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5A2DB8F1E3E1C9400BC64FD /* ViewController+Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Test.swift"; sourceTree = "<group>"; };
 		F5A2DB911E3E1E4100BC64FD /* ObjectTst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectTst.swift; sourceTree = "<group>"; };
+		F5F47A831E49B4E9008FDEC5 /* qweqweqwe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qweqweqwe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				F5690B261E3D0A3C00C1BEAF /* LaunchScreen.storyboard */,
 				F5690B291E3D0A3C00C1BEAF /* Info.plist */,
 				F5A2DB911E3E1E4100BC64FD /* ObjectTst.swift */,
+				F5F47A831E49B4E9008FDEC5 /* qweqweqwe.swift */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				F5A2DB901E3E1C9400BC64FD /* ViewController+Test.swift in Sources */,
 				F5690B201E3D0A3C00C1BEAF /* ViewController.swift in Sources */,
 				F5690B1E1E3D0A3C00C1BEAF /* AppDelegate.swift in Sources */,
+				F5F47A841E49B4E9008FDEC5 /* qweqweqwe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
