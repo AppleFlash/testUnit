@@ -17,49 +17,49 @@ class ViewController: UIViewController {
         
         let queue = OperationQueue()
 //
-//        queue.addOperation() {
-//            OperationQueue.main.addOperation() {
-//                self.test("", tm: 1000)
-//            }
-//        }
-//        
-//        queue.addOperation() {
-//            OperationQueue.main.addOperation() {
-//                self.test("----", tm: 150)
-//            }
-//        
-//        OperationQueue.main.addOperation() {
-//            self.test("][][][][][]", tm: 100)
-//        }
-//        
-//        OperationQueue.main.addOperation() {
-//            self.test("|||||||||\\\\", tm:890)
-//        }
-//        }
+        queue.addOperation() {
+            OperationQueue.main.addOperation() {
+                self.test("", tm: 1000)
+            }
+        }
         
-//        queue.addOperation() {
-//            OperationQueue.main.addOperation() {
-//                test("")
-//            }
-//        }
-//        
-//        queue.addOperation() {
-//            OperationQueue.main.addOperation() {
-//                test("")
-//            }
-//        }
-//
-//        DispatchQueue.global().async {
-//            self.test("")
-//        }
-//        
-//        DispatchQueue.global().async {
-//            self.test("----")
-//        }
-//        
-//        DispatchQueue.global().async {
-//            self.test("][][][][][]")
-//        }
+        queue.addOperation() {
+            OperationQueue.main.addOperation() {
+                self.test("----", tm: 150)
+            }
+        
+        OperationQueue.main.addOperation() {
+            self.test("][][][][][]", tm: 100)
+        }
+        
+        OperationQueue.main.addOperation() {
+            self.test("|||||||||\\\\", tm:890)
+        }
+        }
+        
+        queue.addOperation() {
+            OperationQueue.main.addOperation() {
+                test("")
+            }
+        }
+        
+        queue.addOperation() {
+            OperationQueue.main.addOperation() {
+                test("")
+            }
+        }
+
+        DispatchQueue.global().async {
+            self.test("")
+        }
+        
+        DispatchQueue.global().async {
+            self.test("----")
+        }
+        
+        DispatchQueue.global().async {
+            self.test("][][][][][]")
+        }
         test("", tm:600)
         
         test("----", tm:100)
