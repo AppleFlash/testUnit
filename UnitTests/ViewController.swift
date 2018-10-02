@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 //
         queue.addOperation() {
             OperationQueue.main.addOperation() {
-                self.test("", tm: 1000333)
+                self.test("", tm: 1000)
             }
         }
         
