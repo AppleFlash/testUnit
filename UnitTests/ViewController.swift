@@ -43,12 +43,6 @@ class ViewController: UIViewController {
                 test("")
             }
         }
-        
-        queue.addOperation() {
-            OperationQueue.main.addOperation() {
-                test("")
-            }
-        }
 
         DispatchQueue.global().async {
             self.test("")
