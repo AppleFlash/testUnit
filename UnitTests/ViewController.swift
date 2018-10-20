@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         print("abc")
         print("111")
         print("123")
+        print("144")
         let queue = OperationQueue()
 //
         queue.addOperation() {
