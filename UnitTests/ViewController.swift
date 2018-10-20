@@ -55,7 +55,6 @@ class ViewController: UIViewController {
         DispatchQueue.global().async {
             self.test("][][][][][]")
         }
-        test("", tm:600)
         
         test("----", tm:100)
         
