@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     public var a: Int = 10
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("123")
         let queue = OperationQueue()
 //
         queue.addOperation() {
