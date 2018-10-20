@@ -15,10 +15,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("123123123")
-        print("abc")
-        print("111")
-        print("123")
         let queue = OperationQueue()
 //
         queue.addOperation() {
